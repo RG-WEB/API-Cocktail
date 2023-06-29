@@ -22,7 +22,7 @@ const displayDrink = (data) => {
   // Pour chaque élement du tableau, il doit me retourner un li avec l'élément dedans
 
   const fobj = filterObj.map((e) => {
-    return `<li>${e[1]}</li>`;
+    return `<li><i class="fas fa-wine-glass"></i> ${e[1]}</li>`;
   });
 
   const img = get(".drink-img");
